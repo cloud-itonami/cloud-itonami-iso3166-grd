@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "grd.dish.oil-down", :name "Oil down", :country "GRD", :kind :dish, :summary "The national dish of Grenada: a stew of breadfruit, salted meat, chicken, dumplings, callaloo and other vegetables stewed in coconut milk, herbs and spices.", :url "https://en.wikipedia.org/wiki/Oil_down", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.dish.dal-puri", :name "Dal puri", :country "GRD", :kind :dish, :summary "Street food of Grenadian cuisine, served wrapped around a curry, commonly goat.", :url "https://en.wikipedia.org/wiki/Culture_of_Grenada", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.dish.fried-bakes", :name "Fried bakes", :country "GRD", :kind :dish, :summary "Deep-fried dough street food of Grenadian cuisine.", :url "https://en.wikipedia.org/wiki/Culture_of_Grenada", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.dish.guava-cheese", :name "Guava cheese", :country "GRD", :kind :dish, :summary "Preserved guava fruit paste, a traditional sweet of Grenadian cuisine.", :url "https://en.wikipedia.org/wiki/Culture_of_Grenada", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.product.nutmeg", :name "Nutmeg", :country "GRD", :kind :product, :summary "Grenada is known as the 'Island of Spice' for its production of nutmeg and mace; nutmeg is its top export and is depicted on the national flag.", :url "https://en.wikipedia.org/wiki/Grenada", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.festival.spicemas", :name "Spicemas", :country "GRD", :kind :festival, :summary "Grenada's local Caribbean carnival, held in early August; the sister island of Carriacou holds a separate carnival in February.", :url "https://en.wikipedia.org/wiki/List_of_Caribbean_carnivals_around_the_world", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "grd.festival.big-drum", :name "Big Drum", :country "GRD", :kind :festival, :summary "Musical and spiritual tradition of Carriacou in Grenada, performed at village celebrations called 'Maroons' and at funerals, weddings and religious ceremonies to honour West African ancestors.", :url "https://en.wikipedia.org/wiki/Big_Drum", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
