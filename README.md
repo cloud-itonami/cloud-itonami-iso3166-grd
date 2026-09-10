@@ -45,7 +45,7 @@ compliance department.
 | Governor | `:market-entry-compliance-governor` |
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `director-conviction-disqualifying` (Public Procurement and Disposal of Public Property Act, 2014 s.17(1)(f): a supplier/contractor/consultant/service provider, or any of its directors/officers, convicted of fraud/financial impropriety/false statements within a TWO-YEAR lookback of the procurement proceedings' commencement is disqualified -- independently recomputed from the engagement's own declared conviction/submission dates, see `docs/adr/0001-architecture.md`) |
-| Compliance catalog | `src/statute/facts.cljc` -- Companies Act (Cap. 58A), Employment Act (Cap. 89), Data Protection Act 2023 |
+| Compliance catalog | `src/statute/facts.kotoba` -- Companies Act (Cap. 58A), Employment Act (Cap. 89), Data Protection Act 2023 |
 | Tests | `clojure -M:dev:test` |
 | Demo | `clojure -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
@@ -116,7 +116,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Grenada:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
